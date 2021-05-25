@@ -15,10 +15,11 @@ function About(props) {
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>About</BreadcrumbItem>
                 </Breadcrumb>
-            </div>
-            <div className="row">
                 <h3>About</h3>
                 <hr />
+            </div>
+            <div className="row row-content">
+                
                 <div className="col-12 col-md-3">
                     <img src={`${process.env.PUBLIC_URL}/assets/images/srijan.jpg` } height="320"  />
                 </div>       
