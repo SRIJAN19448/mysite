@@ -20,7 +20,7 @@ function About(props) {
                 <h3>About</h3>
                 <hr />
                 <div className="col-12 col-md-3">
-                    <img src={`${process.env.PUBLIC_URL}/assets/images/srijan.jpg` } height="310" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/srijan.jpg` }  />
                 </div>       
                 <div className="col-12 col-md-7">
                     
