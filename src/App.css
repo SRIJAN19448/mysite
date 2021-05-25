@@ -11,6 +11,10 @@
   min-height:400px;
 }
 
+.myclass{
+  background-color: #E5FBF5;
+}
+
 .footer{
   background-color: #BDFBEA;
   margin:0px auto;
