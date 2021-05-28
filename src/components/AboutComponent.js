@@ -21,7 +21,7 @@ function About(props) {
             <div className="row row-content">
                 
                 <div className="col-12 col-md-3">
-                    <img src={`${process.env.PUBLIC_URL}/assets/images/srijan.jpg` } height="320"  />
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/srijan.jpg` } width="100%"  />
                 </div>       
                 <div className="col-12 col-md-7">
                     

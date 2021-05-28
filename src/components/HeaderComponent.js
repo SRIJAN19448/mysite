@@ -23,22 +23,22 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink className="nav-link" to="/home">
+              <NavLink className="nav-link" to="/home" onClick={toggle}>
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/about">
+              <NavLink className="nav-link" to="/about" onClick={toggle}>
                 About
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/projects">
+              <NavLink className="nav-link" to="/projects" onClick={toggle}>
                 Projects
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to="/contact">
+              <NavLink className="nav-link" to="/contact" onClick={toggle}>
                 Contact
               </NavLink>
             </NavItem>
